@@ -18,5 +18,5 @@ export default function Layout({ children }) {
     return <MobileView style={style}>{children}</MobileView>;
   }
 
-  return <BrowserView style={style}>{children}</BrowserView>;
+  return <BrowserView style={'color=blue'}>{children}</BrowserView>;
 }
